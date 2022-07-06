@@ -115,6 +115,7 @@ if(!fs.existsSync(config.dist)) {
     });
 }
 
+
 readDir(config.entry);
 
 if(config.isDelete) {
